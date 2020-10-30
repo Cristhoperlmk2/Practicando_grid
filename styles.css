@@ -163,3 +163,20 @@ h2{
 .porcentaje-1{
     color: orangered;
 }
+@media only screen and (max-width:375px) {
+    body{
+        width:330px;
+        margin: 0 auto;
+    }
+    
+    .container-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,auto);
+    }
+    .container-grid-2{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8,auto);
+    }
+}
